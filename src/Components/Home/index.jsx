@@ -1,5 +1,5 @@
 import Search from './Search';
-import Card_info from './card-info';
+import Card_info from './Card-info';
 
 const index = () => {
     return (
