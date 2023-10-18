@@ -1,5 +1,5 @@
-const Logo = ()=>{
-    return <h1>ini Logo!</h1>
-}
+const Logo = () => {
+  return <h1>ini Logo! yang ditulis oleh william sama!</h1>;
+};
 
-export default Logo
+export default Logo;
