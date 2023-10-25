@@ -1,3 +1,5 @@
-export const Evolution = () => {
-    return <h1>Evolutioin</h1>;
-};
+const Evolution = (props) => {
+    return <h1>Logo {props.Evol} </h1>
+}
+
+export default Evolution;
