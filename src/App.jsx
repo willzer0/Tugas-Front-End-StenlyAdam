@@ -7,7 +7,8 @@ function App() {
     <>
       <Header />
       <Home />
-      <Footer />
+      <Footer 
+      title = "Footer V3"/>
     </>
   );
 }
