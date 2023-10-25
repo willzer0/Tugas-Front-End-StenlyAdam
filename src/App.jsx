@@ -5,10 +5,9 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <>
-      <Header />
-      <Home />
-      <Footer 
-      title = "Footer V3"/>
+      <Header text="ini adalah text header v3" />
+      <Home text="ini adalah text home v3" />
+      <Footer title="Footer V3" />
     </>
   );
 }
