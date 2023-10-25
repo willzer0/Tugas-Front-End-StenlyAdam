@@ -1,6 +1,6 @@
-import Evolution from "./Evolution";
-import Logo from "./Logo";
-import Type_effect from "./Type-effect";
+import Evolution from "./evolution.jsx";
+import Logo from "./Logo.jsx";
+import Type_effect from "./Type_effect";
 
 const Card_info = () => {
     return (
@@ -8,9 +8,9 @@ const Card_info = () => {
     <>
         <h1>Card-info</h1>
  
-        <Evolution Evol="ini Evolution 2" />
-        <Logo Log="ini Logo 2"/>
-        <Type_effect  Type="ini Type effect 2"/>
+        <Evolution />
+        <Logo />
+        <Type_effect />
     </>
   
     )
