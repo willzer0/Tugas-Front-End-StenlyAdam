@@ -1,5 +1,8 @@
-const Footer = () => {
-    return <h1>ini footer di tulis oleh grace</h1>;
-}
+/* eslint-disable react/prop-types */
+const Footer = ({ props }) => {
+    return (
+    <h2>{props.title}</h2>
+    );
+};
 
 export default Footer;
