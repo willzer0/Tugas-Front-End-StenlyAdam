@@ -7,6 +7,7 @@ const index = (props) => {
       <h1>
         Home <br />
         {props.text}
+        naruto is the best ninja!
       </h1>
       <Search />
       <Card_info />
