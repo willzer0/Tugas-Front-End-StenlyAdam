@@ -1,3 +1,3 @@
 export const Evolution = () => {
-    return <h1>Evolutin</h1>;
+    return <h1>Evolutioin</h1>;
 };
