@@ -1,8 +1,15 @@
 import Generations from "./Generations";
 import Logo from "./Logo";
-const index = () => {
-  return <>
-  <center><Logo /><Generations/></center></>;
+const index = (props) => {
+  return (
+    <>
+      <center>
+        <Logo />
+        <Generations />
+        {props.text}
+      </center>
+    </>
+  );
 };
 
 export default index;
