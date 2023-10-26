@@ -1,9 +1,9 @@
 const Search = () => {
     return (
     <>
-    <h1>Search</h1>
+    <h2>Search</h2>
     <p>
-        search adalah program yang mencari dan mengidentifikasi informasi di dalam database
+        search adalah program yang mencari dan mengidentifikasi berbagai informasi di dalam database
     </p>
 </>
     )
