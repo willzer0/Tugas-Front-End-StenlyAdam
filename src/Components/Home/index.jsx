@@ -4,12 +4,8 @@ import Card_info from "./card-info";
 const index = (props) => {
   return (
     <>
-      <h1>
-        Home <br />
-        {props.text}
-        naruto is the best ninja!
-      </h1>
-      <Search />
+      <h1>Home{props.text}</h1>
+      <Search/>
       <Card_info />
     </>
   );
