@@ -8,6 +8,7 @@ const Generations = () => {
     <div>
       <h1>GENERATIONS</h1>
       <Gen1 />
+      
       <Gen2 />
       <Gen3 />
       <Gen4 />
